@@ -1,10 +1,11 @@
+import 'package:bytebank_4/components/transaction_auth_dialog.dart';
 import 'package:bytebank_4/screens/dashboard.dart';
 import 'package:flutter/material.dart';
+import 'package:uuid/uuid.dart';
 
 
 void main() {
   runApp(BytebankApp());
-  //save(Transaction(200.0, Contact(0, 'pedro', 1000))).then((transaction) => print(transaction));
 }
 
 class BytebankApp extends StatelessWidget {
